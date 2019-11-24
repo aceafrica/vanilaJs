@@ -1,0 +1,6 @@
+ul {
+	list-style : none ;
+} 
+input , span   , button {
+	margin-left : 1rem ; 
+}
