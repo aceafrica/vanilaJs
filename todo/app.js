@@ -31,7 +31,7 @@ class Model {
 	//! This method removes an item from the todo list array 
 	removeItem(id){
 		this.todos = this.todos.filter(item => item.id !== id)
-		this.onTodoListChanged(this.todos)
+		
 	} 
 	//! Toggle if an item is completed or not 
 	isDone(id){
